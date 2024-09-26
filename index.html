@@ -1,20 +1,76 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="id">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Ahmad Fauzi</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #ffffff;
+    }
+    
+    h2 {
+      color: #007bff;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #007bff;
+      color: white;
+    }
+
+    .header img {
+      border-radius: 50%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      margin: 20px 0;
+      border-collapse: collapse;
+    }
+
+    table th, table td {
+      padding: 12px;
+      text-align: left;
+    }
+
+    table th {
+      background-color: #007bff;
+      color: white;
+    }
+  </style>
 </head>
-</html>
 
 <body>
-    <h1>CV Ahmad Fauzi</h1>
-    <p>Halo, nama saya Ahmad Fauzi, saya merupakan mahasiswa semester 2 di Universitas Telkom, Jurusan S1 Sistem Informasi. Saya lahir di Jakarta, 23 November 2004. 
-      Selain kuliah, kesibukan saya setiap hari adalah asisten praktikum jaringan komputer dan pemodelan proses bisnis, serta asisten laboratorium R&D di EDM Laboratory.
-    </p>
-    <img src="ahmad.png" alt="Ahmad Fauzi" width="300" height="300">
+  <div class="header">
+    <h1>CV AHMAD FAUZI</h1>
+    <p>Mahasiswa S1 Sistem Informasi - Universitas Telkom</p>
+    <img src="ahmad.png" alt="Ahmad Fauzi" style="width: 250px;">
+  </div>
 
-    <h2>Riwayat Pendidikan</h2>
-    <table border="1" width="80%" cellpadding="10" cellspacing="0">
+  <div class="container">
+    <h2 style="margin-top: 30px;">Riwayat Pendidikan</h2>
+    <table border="1">
       <tr>
         <th>Jenjang Pendidikan</th>
         <th>Nama Tempat</th>
@@ -36,8 +92,11 @@
         <td>2022-Saat Ini</td>
       </tr>
     </table>
-  
-    <h2>Skill</h2>
-    <p>Saat ini saya memahami dan menguasai bahasa HTML</p>
-  </body>
-  </html>
+
+    <div class="skills">
+      <h2>Skill</h2>
+      <p>Saat ini saya memahami dan menguasai bahasa HTML.</p>
+    </div>
+  </div>
+</body>
+</html>
